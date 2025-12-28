@@ -1,0 +1,31 @@
+[project]
+name = "py-devcontainer"
+version = "0.1.0"
+description = "Python DevContainer generator for creating tailored development environments"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jinja2>=3.1.0",
+    "pyyaml>=6.0",
+    "click>=8.0.0",
+    "questionary>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/devcontainer"]
+
+[project.scripts]
+devcontainer = "devcontainer.cli:main"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+    "pre-commit>=3.0.0",
+]
