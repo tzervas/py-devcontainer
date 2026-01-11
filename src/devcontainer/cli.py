@@ -5,7 +5,6 @@ from pathlib import Path
 import click
 import questionary
 import yaml
-from jinja2 import Environment, FileSystemLoader
 
 
 @click.group()
