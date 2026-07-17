@@ -1,5 +1,10 @@
 # py-devcontainer
 
+<!-- FLEET-BADGES:BEGIN -->
+[![CI](https://github.com/tzervas/py-devcontainer/actions/workflows/fleet-ci.yml/badge.svg?branch=main)](https://github.com/tzervas/py-devcontainer/actions/workflows/fleet-ci.yml?query=branch%3Amain)
+[![Security](https://github.com/tzervas/py-devcontainer/actions/workflows/fleet-security.yml/badge.svg?branch=main)](https://github.com/tzervas/py-devcontainer/actions/workflows/fleet-security.yml?query=branch%3Amain)
+<!-- FLEET-BADGES:END -->
+
 Python DevContainer generator for creating tailored development environments with GitHub Copilot, testing frameworks, and development tools.
 
 ## Installation
